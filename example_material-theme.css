@@ -222,9 +222,11 @@ For a complete list of supported variables and classes, see the white labeling d
     font-size: 14px;
     flex: 0 0 33%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33% */
     max-width: 33%;
+    padding: calc(16px);
 }
 
 .ant-form-item-control{
     flex: 0 0 66%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 66% */
     max-width: 66%;
+    padding: calc(16px);
 }
