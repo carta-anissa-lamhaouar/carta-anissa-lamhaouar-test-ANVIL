@@ -25,7 +25,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /******** root typography ********/
   --root-font-family: '"Inter var", "fallback for Inter", sans-serif';
-  --root-font-weight: 400;
+  /* --root-font-weight: 400; */
   --root-title-display: none;
 
   /******** backgrounds ********/
