@@ -10,11 +10,12 @@ For a complete list of supported variables and classes, see the white labeling d
 :root {
   /******** root colors - sets defaults for everything else that are overrideable ********/
   --root-black-color: #222;
+  --root-grey-color: #ccc;
   --root-white-color: #fff;
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
-  --root-brand-color-10: #b794f6;
+  --root-brand-color-10: var(--root-grey-color);
   --root-brand-color-20: #efe5fd;
   --root-error-color: #e55252;
   --root-link-color: #0185a2;
@@ -49,7 +50,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --button-disabled-color: #d9d9d9;
 
   /* --button-disabled-icon-color: <color-value>; */
-  /* --button-background: <color value>; */
+  --button-background:'#ffffff'
   /* --button-color: <color-value>; */
   /* --button-hover-color: <color-value>; */
   /* --button-hover-background: <color-value>; */
