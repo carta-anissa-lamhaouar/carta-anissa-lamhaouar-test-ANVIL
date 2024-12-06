@@ -68,7 +68,8 @@ For a complete list of supported variables and classes, see the white labeling d
   --field-error-background: transparent;
 
   /* --field-error-label-background: transparent; */
-  /* --field-error-text-color: <color-value>; */
+  --field-error-text-color: #9F1B32;
+  --field-error-border-color: 1px solid #9F1B32;
   /* --field-label-color: <color-value>; */
 
   /******** field inputs ********/
@@ -207,4 +208,15 @@ For a complete list of supported variables and classes, see the white labeling d
 .anvil-list-input-item .anvil-field-label {
   font-size: 14px;
   font-style: italic;
+}
+
+.form-group-header {
+    align-items: center;
+    margin-right: 18px;
+    color: #1C2222;
+    font-size: 14px;
+}
+
+.form-group {
+    display: inline-flex
 }
