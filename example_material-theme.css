@@ -78,6 +78,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 0;
+  --field-input-padding-y: 20px;
   /* --field-input-hover-border-color: <color value>; */
   /* --field-input-focus-border-color: <color value>; *
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
