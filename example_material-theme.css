@@ -69,12 +69,13 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /* --field-error-label-background: transparent; */
   --field-error-text-color: var(root-error-color);
-  --field-error-border-bottom-color: 1px solid var(root-error-color);
+  --field-error-border-color: 1px solid var(root-error-color);
   /* --field-label-color: <color-value>; */
 
   /******** field inputs ********/
   --field-input-background-color: transparent;
   --field-input-border: 1px solid var(--root-grey-color);
+  --field-input-border-radius: 4px;
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 10px;
   --field-input-padding-y: 10px;
