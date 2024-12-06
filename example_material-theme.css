@@ -17,7 +17,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-brand-color: var(--root-black-color);
   --root-brand-color-10: var(--root-grey-color);
   --root-brand-color-20: #efe5fd;
-  --root-error-color: #e55252;
+  --root-error-color: #9F1B32;
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
 
@@ -68,17 +68,16 @@ For a complete list of supported variables and classes, see the white labeling d
   --field-error-background: transparent;
 
   /* --field-error-label-background: transparent; */
-  --field-error-text-color: #9F1B32;
-  --field-error-border-color: 1px solid #9F1B32;
+  --field-error-text-color: var(root-error-color);
+  --field-error-border-bottom-color: 1px solid var(root-error-color);
   /* --field-label-color: <color-value>; */
 
   /******** field inputs ********/
   --field-input-background-color: transparent;
-  --field-input-border: none;
-  --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  --field-input-border: 1px solid var(--root-grey-color);
   --field-input-focus-box-shadow: none;
-  --field-input-padding-x: 0;
-  --field-input-padding-y: 20px;
+  --field-input-padding-x: 10px;
+  --field-input-padding-y: 10px;
   /* --field-input-hover-border-color: <color value>; */
   /* --field-input-focus-border-color: <color value>; *
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
