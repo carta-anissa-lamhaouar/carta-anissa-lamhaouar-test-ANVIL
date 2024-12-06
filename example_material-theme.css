@@ -224,7 +224,13 @@ For a complete list of supported variables and classes, see the white labeling d
     max-width: 33%; */
      padding: calc(16px);
   }
+.ant-form-item {
+  display: flex;
+}
 
+.ant-form-item-label {
+  text-align: right;
+}
 
 /* .ant-form-item-control{
     flex: 0 0 66%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 66% 
