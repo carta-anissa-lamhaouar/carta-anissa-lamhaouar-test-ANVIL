@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import fontTokens from "./tokens";
 
 /* 
 This is an example theme to be used in Anvil.
@@ -17,8 +16,6 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-brand-color: var(--root-black-color);
   --root-brand-color-10: #b794f6;
   --root-brand-color-20: #efe5fd;
-  --root-green-color: #2ed27c;
-  --root-green-color-10: rgba(46, 210, 124, 0.4);
   --root-error-color: #e55252;
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
