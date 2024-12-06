@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import fontTokens from "./tokens";
 
 /* 
 This is an example theme to be used in Anvil.
@@ -23,13 +24,13 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-link-hover-color: #00a298;
 
   /******** root typography ********/
-  --root-font-family: "Roboto", sans-serif;
-  --root-font-weight: 300;
-  /* --root-title-display: none; */
+  --root-font-family: '"Inter var", "fallback for Inter", sans-serif';
+  --root-font-weight: 400;
+  --root-title-display: none;
 
   /******** backgrounds ********/
-  /* --webform-background: <color-value>; */
-  /* --esign-background: <color-value>; */
+  --webform-background: white;
+  --esign-background: white;
 
   /******** webform titles ********/
   --webform-title-font-weight: 500;
