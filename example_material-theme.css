@@ -66,7 +66,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --field-label-font-weight: 300;
   --field-error-box-shadow: none;
   --field-error-background: transparent;
-
+  --field-label-font-weight: 300;
   /* --field-error-label-background: transparent; */
   --field-error-text-color: var(root-error-color);
   --field-error-border-color: 1px solid var(root-error-color);
@@ -220,16 +220,16 @@ For a complete list of supported variables and classes, see the white labeling d
     align-items: center;
     color: #1C2222;
     font-size: 14px;
-    /* flex: 0 0 33%;  Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33% 
-    max-width: 33%; */
-     padding: calc(16px);
+    flex: 0 0 33%;  /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33%  */
+    max-width: 33%;
+    padding: calc(16px);
   }
 
 .dwwfap.ant-form-item  {
   display: flex;
 }
 
-.ant-form-item-label {
+.dwwfap .ant-form-item-label {
   text-align: right;
 }
 
