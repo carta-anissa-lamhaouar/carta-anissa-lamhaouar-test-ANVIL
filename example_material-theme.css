@@ -26,6 +26,8 @@ For a complete list of supported variables and classes, see the white labeling d
     arial, sans-serif;
   /* --root-font-weight: 400; */
   --root-title-display: none;
+  --root-page-title-underline-display: none;
+  
 
   /******** backgrounds ********/
   --webform-background: white;
