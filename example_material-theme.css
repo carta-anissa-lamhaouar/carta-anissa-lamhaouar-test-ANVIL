@@ -194,7 +194,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
 .anvil-field-content-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* we use ant-form-item-has-error to target only error fields. will change to anvil-field-has-error in the future */
