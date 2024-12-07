@@ -224,7 +224,8 @@ For a complete list of supported variables and classes, see the white labeling d
     max-width: 33%; */
      padding: calc(16px);
   }
-.ant-form-item {
+  
+.dwwfap.ant-form-item  {
   display: flex;
 }
 
