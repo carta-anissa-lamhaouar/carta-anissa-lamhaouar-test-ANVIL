@@ -17,7 +17,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-brand-color: var(--root-black-color);
   --root-brand-color-10: var(--root-grey-color);
   --root-brand-color-20: #efe5fd;
-  --root-error-color: #9F1B32;
+  --root-error-color: #9f1b32;
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
 
@@ -27,7 +27,6 @@ For a complete list of supported variables and classes, see the white labeling d
   /* --root-font-weight: 400; */
   --root-title-display: none;
   --root-page-title-underline-display: none;
-  
 
   /******** backgrounds ********/
   --webform-background: white;
@@ -42,7 +41,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --webform-page-title-font-size: 28px;
 
   /* --webform-title-color: <color-value>; */
-  /* --webform-page-title-underline-color: <color value>; */ 
+  /* --webform-page-title-underline-color: <color value>; */
   --webform-page-title-underline-display: none;
   /* --webform-page-title-color: <color-value>; */
 
@@ -52,7 +51,6 @@ For a complete list of supported variables and classes, see the white labeling d
   --button-disabled-color: #d9d9d9;
 
   /* --button-disabled-icon-color: <color-value>; */
-  --button-background:'#ffffff'
   /* --button-color: <color-value>; */
   /* --button-hover-color: <color-value>; */
   /* --button-hover-background: <color-value>; */
@@ -81,7 +79,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 10px;
   --field-input-padding-y: 10px;
-  
+
   /* --field-input-hover-border-color: <color value>; */
   /* --field-input-focus-border-color: <color value>; *
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
@@ -218,16 +216,16 @@ For a complete list of supported variables and classes, see the white labeling d
   width: 100%;
 }
 
- .form-group-header {
-    align-items: center;
-    color: #1C2222;
-    font-size: 14px;
-    flex: 0 0 33%;  /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33%  */
-    max-width: 33%;
-    padding: calc(16px);
-  }
+.form-group-header {
+  align-items: center;
+  color: #1c2222;
+  font-size: 14px;
+  flex: 0 0 33%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33%  */
+  max-width: 33%;
+  padding: calc(16px);
+}
 
-.dwwfap.ant-form-item  {
+.dwwfap.ant-form-item {
   display: flex;
 }
 
@@ -235,8 +233,8 @@ For a complete list of supported variables and classes, see the white labeling d
   text-align: right;
 }
 
-.ant-form-item-control{
-    flex: 0 0 66%;
-    max-width: 66%;
-    padding: calc(16px);
+.ant-form-item-control {
+  flex: 0 0 66%;
+  max-width: 66%;
+  padding: calc(16px);
 }
