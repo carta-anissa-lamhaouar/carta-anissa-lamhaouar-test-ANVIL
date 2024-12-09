@@ -11,14 +11,15 @@ For a complete list of supported variables and classes, see the white labeling d
   /******** root colors - sets defaults for everything else that are overrideable ********/
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
+  --root-gray-80:#394040;
   --root-white-color: #fff;
   --root-light-white-color: rgb(235, 236, 236);
   --root-light-black-color: rgb(35, 43, 43)
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
+  --root-brand-color-20: var(--root-gray-80);
   --root-brand-color-10: var(--root-grey-color);
-  --root-brand-color-20: #efe5fd;
   --root-error-color: #9f1b32;
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
@@ -57,6 +58,9 @@ For a complete list of supported variables and classes, see the white labeling d
   --button-border-radius: 8px;
   --button-color: var(--root-light-white-color);
   --button-background-color: var(--root-light-black-color);
+  --button-font-weight: 500;
+  --button-font-size: 14px;
+  --button-focus-background: var(--root-brand-color-20);
 
   /* --button-disabled-icon-color: <color-value>; */
   /* --button-color: <color-value>; */
@@ -80,11 +84,13 @@ button-disabled-icon-color: The color of the icon in the button when disabled. O
 button-disabled-icon-hover-color: The color of the icon in the button when hovered. Overrides --button-disabled-hover-color.
 button-disabled-line-height: The line height of the button when disabled.
 button-disabled-opacity: The opacity of the button when disabled.
-button-focus-background: The background of the button when focused. Overrides --root-brand-color-10.
+button-focus-background: var(--root-brand-color-20);
 button-focus-border-color: The border color of the button when focused. Overrides --root-brand-color.
 button-focus-color: The color of the button when focused. Overrides --root-white-color.
 button-font-size: The font size of the button.
-button-font-weight: The font weight of the button.
+
+    font-size: inherit;
+    font-weight: 400;
 button-height: The height of the button.
 button-hover-background: The background of the button when hovered. Overrides --root-brand-color-10.
 button-hover-border-color: The border color of the button when hovered. Overrides --root-brand-color-10.
@@ -240,6 +246,7 @@ button-transition: The transition property of the button.
   align-items: center;
   appearance: none;
   display: inline-flex;
+  padding: 0px 74px;
   font-size: 14px;
   font-weight: 500;
   justify-content: center;
@@ -253,7 +260,7 @@ button-transition: The transition property of the button.
 .forge-page.anvil-webform-page > * {
   padding: 32px;
   border: 1px solid var(--root-grey-color);
-  background-color: var(--root-white-color);
+  background-color: var(--root-brand-color-20);
   border-radius: 4px;
   margin-bottom: 32px;
 }
@@ -270,8 +277,6 @@ button-transition: The transition property of the button.
     background: none;
     border-radius: 4px;
     border: none;
-    font-size: inherit;
-    font-weight: 400;
     justify-content: initial;
     min-height: 0px;
     padding: 0px;
