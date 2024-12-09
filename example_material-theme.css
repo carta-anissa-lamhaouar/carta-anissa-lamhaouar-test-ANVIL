@@ -55,7 +55,6 @@ For a complete list of supported variables and classes, see the white labeling d
     outline;
   --button-border: 1px solid var(--root-black-color);
   --button-border-radius: 8px;
-  --button-padding: 0px 74px;
   --button-color: var(--root-light-white-color);
   --button-background-color: var(--root-light-black-color);
 
