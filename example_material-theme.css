@@ -360,7 +360,7 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.form-group-header .ant-form-item-label {
+.form-group-header:has(.ant-form-item-label) {
   align-items: center;
   color: #1c2222;
   font-size: 14px;
@@ -369,7 +369,7 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.dwwfap.ant-form-item {
+.ant-form-item {
   display: flex;
 }
 
