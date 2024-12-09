@@ -113,7 +113,7 @@ button-transition: The transition property of the button.
   /* --circle-icon-button-background: <color-value>; */
   /******** checkbox ********/
   --checkbox-unchecked-border: 1px solid var(--root-grey-2-color);
-  --checkbox-border-radius: 2px;
+  --checkbox-border-radius: 4px;
   --checkbox-size: 22px;
   --checkbox-check-hover-border: 1px solid;
   --checkbox-check-hover-border-color: var(--root-gray-100-color);
