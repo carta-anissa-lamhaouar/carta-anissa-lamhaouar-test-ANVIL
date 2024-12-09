@@ -408,12 +408,15 @@ button-transition: The transition property of the button.
   text-align: right;
 }
 
-.anvil-field-checkbox.ant-form-item {
+/* .anvil-field-checkbox.ant-form-item {
   gap: 10px;
-}
+} */
 .anvil-field-checkbox .form-group-header {
   order: 2;
+  max-width: 95%;
+  padding-left: 10px;
 }
 .anvil-field-checkbox .ant-form-item-control {
   padding-top: 10px;
+  max-width: 5%;
 }
