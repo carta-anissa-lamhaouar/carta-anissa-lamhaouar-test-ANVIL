@@ -278,9 +278,9 @@ button-transition: The transition property of the button.
   border-color: rgb(40, 93, 163);
   box-shadow: rgb(139, 171, 214) 0px 0px 0px 4px;
 }
-.ant-checkbox-checked .ant-checkbox-inner:after {
+/* .ant-checkbox-checked .ant-checkbox-inner:after {
   border: 3px solid var(--root-grey-2-color);
-}
+} */
 .anvil-webform-page-title {
   border-bottom: 1px solid var(--root-grey-color);
   line-height: 28px;
