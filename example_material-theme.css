@@ -273,7 +273,13 @@ button-transition: The transition property of the button.
   border: 1px solid border var(--root-grey-2-color);
   background-color: var(--root-white-color);
 }
+.ant-checkbox-inner:after {
+  border: none;
+}
 
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  border: 3px solid var(--root-grey-2-color);
+}
 .ant-checkbox-input:focus + .ant-checkbox-inner {
   border-color: rgb(40, 93, 163);
   box-shadow: rgb(139, 171, 214) 0px 0px 0px 4px;
