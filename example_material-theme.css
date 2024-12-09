@@ -371,6 +371,7 @@ button-transition: The transition property of the button.
 
 .anvil-field-shorttext.ant-form-item {
   display: flex;
+  align-items: center;
 }
 
 .ant-form-item {
