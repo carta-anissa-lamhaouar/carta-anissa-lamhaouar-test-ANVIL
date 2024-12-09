@@ -388,6 +388,10 @@ button-transition: The transition property of the button.
   max-width: 92%;
 }
 
+.anvil-field-checkbox.dwwfap .ant-form-item-label {
+  text-align: left;
+}
+
 .anvil-field-shorttext.ant-form-item {
   display: flex;
   align-items: center;
