@@ -11,10 +11,10 @@ For a complete list of supported variables and classes, see the white labeling d
   /******** root colors - sets defaults for everything else that are overrideable ********/
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
-  --root-gray-80-color:#394040;
+  --root-gray-80-color: #394040;
   --root-white-color: #fff;
   --root-light-white-color: rgb(235, 236, 236);
-  --root-light-black-color: rgb(35, 43, 43)
+  --root-light-black-color: rgb(35, 43, 43);
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
@@ -103,7 +103,6 @@ button-line-height: The line height of the button.
 button-opacity: The opacity of the button.
 button-transition: The transition property of the button.
  */
-
 
   /******** circle icons ********/
   /* --circle-icon-background: <color-value>; */
@@ -265,39 +264,40 @@ button-transition: The transition property of the button.
   background-color: var(--root-black-color);
 }
 
-.anvil-webform-save-and-continue-button{
-    align-items: center;
-    appearance: none;
-    display: inline-flex;
-    margin: 0px;
-    transition-duration: 80ms;
-    transition-property: background-color, border-color, box-shadow, color, outline;
-    transition-timing-function: ease-out;
-    white-space: nowrap;
-    background: none;
-    border-radius: 4px;
-    border: none;
-    justify-content: initial;
-    min-height: 0px;
-    padding: 0px;
-    text-align: left;
-    width: auto;
-    text-decoration: underline;
-    text-underline-offset: 0.15em;
+.anvil-webform-save-and-continue-button {
+  align-items: center;
+  appearance: none;
+  display: inline-flex;
+  margin: 0px;
+  transition-duration: 80ms;
+  transition-property: background-color, border-color, box-shadow, color,
+    outline;
+  transition-timing-function: ease-out;
+  white-space: nowrap;
+  background: none;
+  border-radius: 4px;
+  border: none;
+  justify-content: initial;
+  min-height: 0px;
+  padding: 0px;
+  text-align: left;
+  width: auto;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .anvil-button-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .anvil-button-bar > .secondary-button-container {
-    order: 1; 
+  order: 1;
 }
 
 .anvil-button-bar > button {
-    order: 2; 
+  order: 2;
 }
 
 .anvil-markdown ol {
