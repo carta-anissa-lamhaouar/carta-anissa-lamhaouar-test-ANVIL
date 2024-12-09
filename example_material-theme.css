@@ -363,6 +363,7 @@ button-transition: The transition property of the button.
 .anvil-field-shorttext .form-group-header,
 .anvil-field-dollar .form-group-header,
 .anvil-field-email .form-group-header,
+.anvil-field-phone .form-group-header,
 .anvil-field-intladdress .form-group-header,
 .anvil-field-compoundselect .form-group-header {
   align-items: center;
@@ -376,6 +377,7 @@ button-transition: The transition property of the button.
 .anvil-field-dollar.ant-form-item,
 .anvil-field-email.ant-form-item,
 .anvil-field-intladdress.ant-form-item,
+.anvil-field-phone.ant-form-item,
 .anvil-field-compoundselect.ant-form-item {
   display: flex;
   align-items: center;
