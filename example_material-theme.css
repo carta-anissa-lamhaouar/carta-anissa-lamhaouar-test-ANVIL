@@ -36,9 +36,9 @@ For a complete list of supported variables and classes, see the white labeling d
   --webform-title-font-weight: 500;
   --webform-title-font-style: normal;
   --webform-title-font-size: 32px;
-  --webform-page-title-font-weight: 300;
+  --webform-page-title-font-weight: 500;
   --webform-page-title-font-style: normal;
-  --webform-page-title-font-size: 28px;
+  --webform-page-title-font-size: 16px;
 
   /* --webform-title-color: <color-value>; */
   /* --webform-page-title-underline-color: <color value>; */
@@ -177,13 +177,28 @@ For a complete list of supported variables and classes, see the white labeling d
   /* --review-data-card-edit-button-hover-color: <color-value>; */
 }
 
-.anvil-markdown strong {
-  font-weight: 500;
-  font-style: normal;
+.anvil-webform-page-title {
+  border-bottom: 1px solid var(--root-grey-color);
+  line-height: 28px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-feature-settings: "ss01", "cv05", "cv10", "calt";
 }
 
-.anvil-markdown ul {
-  list-style-type: square;
+.anvil-markdown {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.forge-page.anvil-webform-page > * {
+  padding: 32px;
+  border: 1px solid var(--root-grey-color);
+  background-color: var(--root-white-color);
+  border-radius: 4px;
+  margin-bottom: 32px;
 }
 
 .anvil-markdown ol {
