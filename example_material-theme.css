@@ -226,6 +226,10 @@ button-transition: The transition property of the button.
   /* --review-data-card-edit-button-hover-color: <color-value>; */
 }
 
+.ant-form-item-control-input {
+  font-size: 14px;
+}
+
 .anvil-webform-page-title {
   border-bottom: 1px solid var(--root-grey-color);
   line-height: 28px;
@@ -283,7 +287,7 @@ button-transition: The transition property of the button.
   padding: 0px;
   text-align: left;
   width: auto;
-  color: var(--root-gray-80-color);
+  color: var(--root-gray-100-color);
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
