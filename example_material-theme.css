@@ -360,7 +360,7 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.form-group-header:has(.ant-form-item-label) {
+.anvil-field-shorttext .form-group-header {
   align-items: center;
   color: #1c2222;
   font-size: 14px;
