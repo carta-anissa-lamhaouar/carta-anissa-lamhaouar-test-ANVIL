@@ -290,6 +290,7 @@ button-transition: The transition property of the button.
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .anvil-button-bar > .secondary-button-container {
