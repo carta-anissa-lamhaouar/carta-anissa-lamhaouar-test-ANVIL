@@ -239,7 +239,7 @@ button-transition: The transition property of the button.
   font-feature-settings: "ss01", "cv05", "cv10", "calt";
 }
 
-.anvil-markdown {
+.anvil-webform-description {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 400;
