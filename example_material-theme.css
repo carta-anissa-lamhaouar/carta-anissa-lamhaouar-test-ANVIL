@@ -369,7 +369,7 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.anvil-field-shorttext .dwwfap.ant-form-item {
+.anvil-field-shorttext.ant-form-item {
   display: flex;
 }
 
