@@ -118,7 +118,7 @@ button-transition: The transition property of the button.
   --checkbox-check-hover-border: 1px solid;
   --checkbox-check-hover-border-color: var(--root-gray-100-color);
   --checkbox-checked-background: white;
-  --checkbox-checked-border: 2px solid;
+  --checkbox-checked-border: 1px solid;
   --checkbox-checked-border-color: var(--root-grey-2-color);
   /******** fields ********/
   --field-label-font-weight: 500;
