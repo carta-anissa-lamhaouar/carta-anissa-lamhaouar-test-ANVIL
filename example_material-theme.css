@@ -11,6 +11,7 @@ For a complete list of supported variables and classes, see the white labeling d
   /******** root colors - sets defaults for everything else that are overrideable ********/
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
+  --root-grey-2-color: #c4c4c4;
   --root-gray-80-color: #394040;
   --root-gray-100-color: #1c2222;
   --root-white-color: #fff;
@@ -232,7 +233,7 @@ button-transition: The transition property of the button.
 }
 .ant-checkbox {
   background-color: var(--root-white-color);
-  border: 1px solid var(--root-light-white-color);
+  border: 1px solid var(--root-grey-2-color);
   outline: none;
   overflow: hidden;
   transition: border 80ms ease-out, box-shadow 80ms ease-out;
