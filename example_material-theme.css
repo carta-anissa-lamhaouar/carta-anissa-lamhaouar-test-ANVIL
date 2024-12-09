@@ -12,6 +12,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
   --root-gray-80-color: #394040;
+  --root-gray-100-color: #1c2222;
   --root-white-color: #fff;
   --root-light-white-color: rgb(235, 236, 236);
   --root-light-black-color: rgb(35, 43, 43);
@@ -282,8 +283,13 @@ button-transition: The transition property of the button.
   padding: 0px;
   text-align: left;
   width: auto;
+  color: var(--root-gray-80-color);
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+#saveAndContinueButton svg {
+  display: none; /* Hides the SVG icon */
 }
 
 .anvil-button-bar {
