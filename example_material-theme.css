@@ -420,3 +420,7 @@ button-transition: The transition property of the button.
   padding-top: 10px;
   max-width: 5%;
 }
+
+.anvil-field-checkbox .anvil-field-label {
+  font-weight: 400;
+}
