@@ -12,6 +12,8 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
   --root-white-color: #fff;
+  --root-light-white-color: rgb(235, 236, 236);
+  --root-light-black-color: rgb(35, 43, 43)
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
@@ -49,6 +51,13 @@ For a complete list of supported variables and classes, see the white labeling d
   --button-border-radius: 8px;
   --button-disabled-background: #f5f5f5;
   --button-disabled-color: #d9d9d9;
+  --button-transition: background-color, border-color, box-shadow, color,
+    outline;
+  --button-border: 1px solid var(--root-black-color);
+  --button-border-radius: 8px;
+  --button-padding: 0px 74px;
+  --button-color: var(--root-light-white-color);
+  --button-background-color: var(--root-light-black-color);
 
   /* --button-disabled-icon-color: <color-value>; */
   /* --button-color: <color-value>; */
@@ -56,6 +65,40 @@ For a complete list of supported variables and classes, see the white labeling d
   /* --button-hover-background: <color-value>; */
   /* --button-focus-color: <color-value>; */
   /* --button-focus-background: <color-value>; */
+
+  /* button-background: The background of the button. Overrides --root-brand-color.
+button-border: The border of the button.
+button-border-color: The border color of the button.
+button-border-radius: The border radius of the button.
+button-color: The color of the button. Overrides --root-white-color.
+button-cursor: The cursor of the button.
+button-disabled-background: The background of the button when disabled.
+button-disabled-border-color: The border color of the button when disabled. Overrides --button-disabled-color.
+button-disabled-color: The color of the button when disabled.
+button-disabled-cursor: The cursor of the button when disabled.
+button-disabled-hover-color: The color of the button when disabled and hovered. Overrides --button-disabled-color.
+button-disabled-icon-color: The color of the icon in the button when disabled. Overrides --button-disabled-color.
+button-disabled-icon-hover-color: The color of the icon in the button when hovered. Overrides --button-disabled-hover-color.
+button-disabled-line-height: The line height of the button when disabled.
+button-disabled-opacity: The opacity of the button when disabled.
+button-focus-background: The background of the button when focused. Overrides --root-brand-color-10.
+button-focus-border-color: The border color of the button when focused. Overrides --root-brand-color.
+button-focus-color: The color of the button when focused. Overrides --root-white-color.
+button-font-size: The font size of the button.
+button-font-weight: The font weight of the button.
+button-height: The height of the button.
+button-hover-background: The background of the button when hovered. Overrides --root-brand-color-10.
+button-hover-border-color: The border color of the button when hovered. Overrides --root-brand-color-10.
+button-hover-color: The color of the button when hovered. Overrides --root-white-color.
+button-icon-color: The color of the icon in the button. Overrides --button-color.
+button-icon-hover-color: The color of the icon in the button when hovered. Overrides --button-hover-color.
+button-interacted-background: The background of the button when interacted with, e.g. hover, focus, and active states. Overrides --root-brand-color.
+button-interacted-color: The color of the button when interacted with, e.g. hover, focus, and active states. Overrides --root-white-color.
+button-line-height: The line height of the button.
+button-opacity: The opacity of the button.
+button-transition: The transition property of the button.
+ */
+
 
   /******** circle icons ********/
   /* --circle-icon-background: <color-value>; */
@@ -194,12 +237,63 @@ For a complete list of supported variables and classes, see the white labeling d
   line-height: 24px;
 }
 
+.forge-submit .anvil-button {
+  align-items: center;
+  appearance: none;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  transition-duration: 80ms;
+  transition-timing-function: ease-out;
+  white-space: nowrap;
+  min-height: 42px;
+  background-color: rgb(35, 43, 43);
+}
+
 .forge-page.anvil-webform-page > * {
   padding: 32px;
   border: 1px solid var(--root-grey-color);
   background-color: var(--root-white-color);
   border-radius: 4px;
   margin-bottom: 32px;
+}
+
+.anvil-webform-save-and-continue-button{
+    align-items: center;
+    appearance: none;
+    display: inline-flex;
+    margin: 0px;
+    transition-duration: 80ms;
+    transition-property: background-color, border-color, box-shadow, color, outline;
+    transition-timing-function: ease-out;
+    white-space: nowrap;
+    background: none;
+    border-radius: 4px;
+    border: none;
+    font-size: inherit;
+    font-weight: 400;
+    justify-content: initial;
+    min-height: 0px;
+    padding: 0px;
+    text-align: left;
+    width: auto;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.anvil-button-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.anvil-button-bar > .secondary-button-container {
+    order: 1; 
+}
+
+.anvil-button-bar > button {
+    order: 2; 
 }
 
 .anvil-markdown ol {
