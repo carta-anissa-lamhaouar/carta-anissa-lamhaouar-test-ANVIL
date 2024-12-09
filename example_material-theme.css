@@ -383,6 +383,9 @@ button-transition: The transition property of the button.
   align-items: center;
 }
 
+.anvil-field-checkbox.ant-form-item {
+  display: flex;
+}
 .anvil-field-compoundselect {
   padding-left: 15px;
   max-width: 92%;
@@ -407,12 +410,11 @@ button-transition: The transition property of the button.
 
 .anvil-field-checkbox.ant-form-item {
   gap: 10px;
-  display: flex;
 }
 .anvil-field-checkbox.form-group-header {
   order: 2;
 }
 .anvil-field-checkbox.ant-form-item-control {
-  padding-top: 10px;
   order: 1;
+  padding-top: 10px;
 }
