@@ -232,7 +232,7 @@ button-transition: The transition property of the button.
 }
 .ant-checkbox {
   background-color: var(--root-white-color);
-  border-color: 1px solid var(--root-light-white-color);
+  border: 1px solid var(--root-light-white-color);
   outline: none;
   overflow: hidden;
   transition: border 80ms ease-out, box-shadow 80ms ease-out;
