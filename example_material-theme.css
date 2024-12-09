@@ -368,6 +368,12 @@ button-transition: The transition property of the button.
   max-width: 33%;
   padding: calc(16px);
 }
+.anvil-field-shorttext.ant-form-item,
+.anvil-field-dollar.ant-form-item,
+.anvil-field-compoundselect.ant-form-item {
+  display: flex;
+  align-items: center;
+}
 
 .anvil-field-shorttext.ant-form-item {
   display: flex;
