@@ -270,6 +270,11 @@ button-transition: The transition property of the button.
   background-color: var(--root-white-color);
 }
 
+.ant-checkbox-inner:focus {
+  border-color: rgb(40, 93, 163);
+  box-shadow: rgb(139, 171, 214) 0px 0px 0px 4px;
+}
+
 .anvil-webform-page-title {
   border-bottom: 1px solid var(--root-grey-color);
   line-height: 28px;
