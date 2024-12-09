@@ -11,14 +11,14 @@ For a complete list of supported variables and classes, see the white labeling d
   /******** root colors - sets defaults for everything else that are overrideable ********/
   --root-black-color: #222;
   --root-grey-color: #cccccc87;
-  --root-gray-80:#394040;
+  --root-gray-80-color:#394040;
   --root-white-color: #fff;
   --root-light-white-color: rgb(235, 236, 236);
   --root-light-black-color: rgb(35, 43, 43)
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
-  --root-brand-color-20: var(--root-gray-80);
+  --root-brand-color-20: var(--root-gray-80-color);
   --root-brand-color-10: var(--root-grey-color);
   --root-error-color: #9f1b32;
   --root-link-color: #0185a2;
@@ -61,7 +61,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --button-font-weight: 500;
   --button-font-size: 14px;
   --button-focus-background: var(--root-brand-color-20);
-
+  --button-hover-background: var(--root-brand-color-20);
   /* --button-disabled-icon-color: <color-value>; */
   /* --button-color: <color-value>; */
   /* --button-hover-color: <color-value>; */
@@ -242,6 +242,14 @@ button-transition: The transition property of the button.
   line-height: 24px;
 }
 
+.forge-page.anvil-webform-page > * {
+  padding: 32px;
+  border: 1px solid var(--root-grey-color);
+  background-color: var(--root-white-color);
+  border-radius: 4px;
+  margin-bottom: 32px;
+}
+
 .forge-submit .anvil-button {
   align-items: center;
   appearance: none;
@@ -254,15 +262,7 @@ button-transition: The transition property of the button.
   transition-timing-function: ease-out;
   white-space: nowrap;
   min-height: 42px;
-  background-color: rgb(35, 43, 43);
-}
-
-.forge-page.anvil-webform-page > * {
-  padding: 32px;
-  border: 1px solid var(--root-grey-color);
-  background-color: var(--root-brand-color-20);
-  border-radius: 4px;
-  margin-bottom: 32px;
+  background-color: var(--root-black-color);
 }
 
 .anvil-webform-save-and-continue-button{
