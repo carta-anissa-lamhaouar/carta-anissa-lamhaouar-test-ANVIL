@@ -360,7 +360,9 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.anvil-field-shorttext .form-group-header {
+.anvil-field-shorttext .form-group-header,
+.anvil-field-dollar .form-group-header,
+.anvil-field-compoundselect .form-group-header {
   align-items: center;
   color: #1c2222;
   font-size: 14px;
