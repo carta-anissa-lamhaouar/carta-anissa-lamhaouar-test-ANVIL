@@ -360,11 +360,11 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
-.form-group-header > div:not(:empty) {
+.form-group-header .ant-form-item-label {
   align-items: center;
   color: #1c2222;
   font-size: 14px;
-  flex: 0 0 33%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 33%  */
+  flex: 0 0 33%;
   max-width: 33%;
   padding: calc(16px);
 }
