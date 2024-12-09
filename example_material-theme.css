@@ -350,7 +350,17 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 
-.form-group-header {
+/* .form-group-header > div:only-child:empty {
+
+} */
+
+.ant-form-item-control:has(.anvil-field-input) {
+  flex: 0 0 66%;
+  max-width: 66%;
+  padding: calc(16px);
+}
+
+.form-group-header > div:only-child:not(:empty) {
   align-items: center;
   color: #1c2222;
   font-size: 14px;
@@ -365,10 +375,4 @@ button-transition: The transition property of the button.
 
 .dwwfap .ant-form-item-label {
   text-align: right;
-}
-
-.ant-form-item-control {
-  flex: 0 0 66%;
-  max-width: 66%;
-  padding: calc(16px);
 }
