@@ -482,3 +482,10 @@ button-transition: The transition property of the button.
 .anvil-field-checkbox .anvil-field-label {
   font-weight: 400;
 }
+
+strong,
+p strong,
+li strong,
+span strong {
+  font-weight: 500;
+}
