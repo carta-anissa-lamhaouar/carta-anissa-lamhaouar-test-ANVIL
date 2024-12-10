@@ -473,7 +473,9 @@ button-transition: The transition property of the button.
 .label-i-agree {
   gap: 10px;
 }
-
+.anvil-field-city .ant-form-item-control {
+  padding: 0;
+}
 .anvil-field-usaddress .anvil-field-checkbox.ant-form-item {
   display: flex;
 }
