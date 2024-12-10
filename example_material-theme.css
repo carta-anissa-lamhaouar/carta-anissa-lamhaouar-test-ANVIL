@@ -507,10 +507,8 @@ span strong {
     --field-input-focus-border-color,
     var(--root-brand-color, #222222)
   );
-  background: var(
-    --field-input-focus-background,
-    var(--root-white-color, white)
-  ); /* Dropdown container */
+  background: red;
+  /* Dropdown container */
 }
 
 .ant-select-dropdown {
