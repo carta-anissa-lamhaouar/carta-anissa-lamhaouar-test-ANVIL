@@ -408,6 +408,13 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 
+.anvil-webform-review-page {
+  padding: 32px;
+  border: 1px solid var(--root-grey-color);
+  background-color: var(--root-white-color);
+  border-radius: 4px;
+  margin-bottom: 32px;
+}
 /* .ant-form-item-control textarea {
   /* Remove padding for the parent if a textarea is present */
 /* padding: 0;
