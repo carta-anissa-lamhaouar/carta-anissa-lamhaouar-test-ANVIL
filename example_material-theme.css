@@ -494,3 +494,90 @@ span strong {
 .forge-page.anvil-webform-page > * {
   min-width: auto;
 }
+.hCrgKR
+  .ant-select-focused:not(.ant-select-disabled).anvil-dropdown:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  box-shadow: var(
+    --field-input-focus-box-shadow,
+    0 0 8px 2px rgba(34, 34, 34, 0.2)
+  );
+  border-color: var(
+    --field-input-focus-border-color,
+    var(--root-brand-color, #222222)
+  );
+  background: var(
+    --field-input-focus-background,
+    var(--root-white-color, white)
+  ); /* Dropdown container */
+}
+
+.ant-select-dropdown {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px 1px rgba(0, 0, 0, 0.08);
+  padding: 6px 0; /* inner vertical spacing */
+  margin: 2px 0; /* outer vertical spacing */
+}
+
+/* Dropdown header (if applicable) */
+.ant-select-item-group {
+  font-family: Arial, sans-serif; /* Assuming default font family */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1c2222;
+  padding: 20px 12px 4px 12px; /* top, horizontal, bottom */
+}
+
+/* Dropdown item */
+.ant-select-item {
+  font-family: Arial, sans-serif; /* Assuming default font family */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1c2222;
+  padding: 6px 12px; /* desktop vertical and horizontal spacing */
+  background-color: #ffffff;
+}
+
+.ant-select-item:hover {
+  background-color: #ebecec;
+}
+
+.ant-select-item-active {
+  background-color: #ebecec;
+}
+
+.ant-select-item-selected {
+  font-weight: 500;
+}
+
+.ant-select-item-disabled {
+  color: #a7aaaa;
+  cursor: not-allowed;
+}
+
+/* Item outline for keyboard focus */
+.ant-select-item:focus {
+  outline: 2px solid #285da3;
+  outline-offset: -2px;
+}
+
+/* Separator */
+.ant-select-item-divider {
+  background-color: #c4c4c4;
+  height: 1px;
+  margin: 4px 0; /* vertical spacing */
+}
+
+/* Box dimensions for dropdown */
+.ant-select-dropdown {
+  max-width: 400px;
+  min-width: 200px;
+  width: 80vw; /* flexible */
+}
