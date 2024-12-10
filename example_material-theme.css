@@ -464,6 +464,14 @@ button-transition: The transition property of the button.
   align-items: center;
 }
 
+.label-principal-contact-address {
+  max-width: 100%;
+}
+
+.label-i-agree {
+  gap: 10px;
+}
+
 .anvil-field-checkbox.ant-form-item {
   display: flex;
 }
