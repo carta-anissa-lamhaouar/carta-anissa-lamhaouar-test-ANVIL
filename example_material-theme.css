@@ -327,7 +327,7 @@ button-transition: The transition property of the button.
   background-color: var(--root-black-color);
 }
 
-.anvil-webform-save-and-continue-button {
+.ant-btn.anvil-webform-save-and-continue-button {
   align-items: center;
   appearance: none;
   display: inline-flex;
@@ -492,7 +492,7 @@ span strong {
 }
 
 .forge-page.anvil-webform-page > * {
-  min-width: auto;
+  min-width: 600px;
 }
 
 .jxjWuv strong {
@@ -501,4 +501,8 @@ span strong {
 
 .hCrgKR {
   padding: 0;
+}
+
+.anvil-loading-spinner {
+  visibility: hidden;
 }
