@@ -445,6 +445,7 @@ button-transition: The transition property of the button.
 .anvil-field-email .form-group-header,
 .anvil-field-phone .form-group-header,
 .anvil-field-intladdress .form-group-header,
+.anvil-field-usaddress .form-group-header,
 .anvil-field-compoundselect .form-group-header {
   align-items: center;
   color: #1c2222;
@@ -459,6 +460,7 @@ button-transition: The transition property of the button.
 .anvil-field-email.ant-form-item,
 .anvil-field-intladdress.ant-form-item,
 .anvil-field-phone.ant-form-item,
+.anvil-field-usaddress.ant-form-item,
 .anvil-field-compoundselect.ant-form-item {
   display: flex;
   align-items: center;
@@ -472,7 +474,7 @@ button-transition: The transition property of the button.
   gap: 10px;
 }
 
-.anvil-field-checkbox.ant-form-item {
+.anvil-field-usaddress .anvil-field-checkbox.ant-form-item {
   display: flex;
 }
 /* .anvil-field-compoundselect {
