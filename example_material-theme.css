@@ -485,6 +485,19 @@ button-transition: The transition property of the button.
 .anvil-field-checkbox .anvil-field-label {
   font-weight: 400;
 }
+.sc-ifjxht.fwmdsk {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-description.forge-page-description.anvil-webform-description {
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 
 strong,
 p strong,
