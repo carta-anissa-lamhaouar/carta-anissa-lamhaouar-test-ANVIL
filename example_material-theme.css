@@ -412,7 +412,8 @@ button-transition: The transition property of the button.
 
 } */
 
-.ant-form-item-control:has(.anvil-field-input) {
+.ant-form-item-control:has(.anvil-field-input),
+.ant-form-item-control:has(.anvil-dropdown) {
   flex: 0 0 66%;
   max-width: 66%;
   padding: calc(16px);
@@ -492,7 +493,7 @@ span strong {
 }
 
 .forge-page.anvil-webform-page > * {
-  min-width: 600px;
+  min-width: 100%;
 }
 
 .jxjWuv strong {
