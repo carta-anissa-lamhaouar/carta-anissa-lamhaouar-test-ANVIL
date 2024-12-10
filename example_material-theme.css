@@ -492,7 +492,7 @@ span strong {
 }
 
 .forge-page.anvil-webform-page > * {
-  min-width: 600px;
+  min-width: auto;
 }
 
 .jxjWuv strong {
