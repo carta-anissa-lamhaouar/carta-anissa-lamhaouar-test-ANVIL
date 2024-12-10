@@ -454,8 +454,13 @@ button-transition: The transition property of the button.
 /* .anvil-field-compoundselect {
 } */
 
-.anvil-field-checkbox.dwwfap .ant-form-item-label {
+.anvil-field-checkbox.dwwfap .ant-form-item-label,
+.anvil-field-radiobuttons.dwwfap .ant-form-item-label {
   text-align: left;
+}
+
+.anvil-field-radiobuttons .anvil-button-bar {
+  justify-content: flex-start;
 }
 
 .anvil-field-shorttext.ant-form-item {
@@ -469,6 +474,11 @@ button-transition: The transition property of the button.
 
 .dwwfap .ant-form-item-label {
   text-align: right;
+}
+
+.anvil-field-radiobuttons .ant-form-item-control {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ant-form-item.ant-form-item-has-error .form-group-header {
