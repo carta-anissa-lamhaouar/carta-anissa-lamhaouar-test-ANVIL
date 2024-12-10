@@ -467,9 +467,7 @@ button-transition: The transition property of the button.
 }
 
 .ant-form-item.ant-form-item-has-error .form-group-header {
-  background-color: #fff4f4; /* Light red background for error */
-  border-color: #ff4d4f; /* Match error border color */
-  color: #ff4d4f; /* Red text */
+  padding-bottom: 30px;
 }
 /* .anvil-field-checkbox.ant-form-item {
   gap: 10px;
