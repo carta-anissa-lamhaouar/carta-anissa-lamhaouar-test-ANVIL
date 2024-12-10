@@ -21,7 +21,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-text-color: var(--root-black-color);
   --root-brand-color: var(--root-black-color);
   --root-brand-color-20: var(--root-gray-80-color);
-  --root-brand-color-10: var(--root-grey-color);
+  --root-brand-color-10: var(--root-gray-100-color);
   --root-error-color: #9f1b32;
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
