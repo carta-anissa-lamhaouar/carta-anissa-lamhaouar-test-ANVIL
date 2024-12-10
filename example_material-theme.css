@@ -408,11 +408,16 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 
+/* .ant-form-item-control textarea {
+  /* Remove padding for the parent if a textarea is present */
+/* padding: 0;
+  margin: 0;
+} */
 /* .form-group-header > div:only-child:empty {
 
 } */
 
-.ant-form-item-control:has(.anvil-field-input),
+.ant-form-item-control:has(.anvil-field-input):not(:has(textarea)),
 .ant-form-item-control:has(.anvil-dropdown) {
   flex: 0 0 66%;
   max-width: 66%;
