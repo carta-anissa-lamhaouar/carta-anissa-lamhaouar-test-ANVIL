@@ -149,12 +149,15 @@ button-transition: The transition property of the button.
   --dropdown-placeholder-font-style: italic;
   --dropdown-placeholder-font-weight: 400;
 
-  /* --dropdown-option-active-background-color: <color-value>; */
-  /* --dropdown-menu-background-color: <color-value>; */
+  --dropdown-option-active-background-color: var(--root-grey-color);
+  --dropdown-menu-background-color: var(--root-gray-80-color);
   /* --dropdown-menu-color: <color-value>; */
-  /* --dropdown-placeholder-background-color: <color-value>; */
+  --dropdown-placeholder-background-color: var(--root-white-color);
   /* --dropdown-placeholder-color: <color-value>; */
-  /* --dropdown-placeholder-active-color: <color-value>; */
+  --dropdown-placeholder-active-color: var(--root-grey-color);
+
+  /* border: var(--dropdown-option-active-border-color,transparent);
+    background: var(--dropdown-option-active-border-color, ; */
 
   /******** date picker ********/
   --date-picker-border: none;
@@ -580,3 +583,13 @@ span strong {
   right: 0;
   bottom: 0;
 }
+
+/* .ant-select-item-option-active.ant-select-item-option-active:not(
+    .ant-select-item-option-disabled
+  ) {
+  background: #8babd6;
+}
+
+
+
+.ant-select-item-option-active.ant-select-item-option-active:not(.ant-select-item-option-disabled) { */
