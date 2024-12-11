@@ -555,6 +555,7 @@ button-transition: The transition property of the button.
 }
 .anvil-field-usaddress > .ant-form-item-control {
   padding: calc(16px);
+  max-width: 66%;
 }
 
 .anvil-address-state.anvil-field.form-group-state.anvil-field-state {
