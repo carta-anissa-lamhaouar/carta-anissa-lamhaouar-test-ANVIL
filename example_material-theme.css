@@ -242,7 +242,9 @@ button-transition: The transition property of the button.
 .anvil-review-data-card.anvil-content-card {
   margin-bottom: 40px;
 }
-.anvil-esign-page {
+.anvil-esign-page,
+.anvil-webform-finish-page,
+.anvil-webform-review-page {
   font-family: "Inter var", "Open Sans", "Helvetica Neue", helvetica;
 }
 
