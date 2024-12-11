@@ -448,9 +448,15 @@ button-transition: The transition property of the button.
 .anvil-address-state {
   width: 100%;
 }
-.ant-form-item-control:has(.anvil-field-input):not(:has(textarea)),
-.ant-form-item-control:has(.anvil-field-input):not(:has(.ant-input.city)),
-.ant-form-item-control:has(.anvil-dropdown) {
+
+/* .ant-form-item-control:has(.anvil-field-input):not(:has(textarea)), */
+.anvil-field-shorttext .ant-form-item-control,
+.anvil-field-dollar .ant-form-item-control,
+.anvil-field-email .ant-form-item-control,
+.anvil-field-phone .ant-form-item-control,
+.anvil-field-intladdress .ant-form-item-control,
+.anvil-field-usaddress .ant-form-item-control,
+.anvil-field-compoundselect .ant-form-item-control {
   flex: 0 0 66%;
   max-width: 66%;
   padding: calc(16px);
