@@ -242,6 +242,13 @@ button-transition: The transition property of the button.
 .anvil-review-data-card.anvil-content-card {
   margin-bottom: 40px;
 }
+.anvil-esign-page {
+  font-family: "Inter var", "Open Sans", "Helvetica Neue", helvetica;
+}
+
+.sc-ilJxFg.cyGrpF > #signature-accept-btn {
+  margin-left: 30%;
+}
 
 .ant-form-item-control-input {
   font-size: 14px;
