@@ -470,6 +470,10 @@ button-transition: The transition property of the button.
   padding: calc(16px);
 }
 
+.anvil-button-bar > #review-and-sign-btn {
+  position: relative;
+  justify-content: center;
+}
 .anvil-field-shorttext .form-group-header,
 .anvil-field-dollar .form-group-header,
 .anvil-field-email .form-group-header,
