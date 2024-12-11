@@ -453,6 +453,10 @@ button-transition: The transition property of the button.
   padding-left: 15px;
 }
 
+.anvil-review-data-card-edit-button {
+  color: #285da3;
+}
+
 /* .ant-form-item-control:has(.anvil-field-input):not(:has(textarea)), */
 .anvil-field-shorttext .ant-form-item-control,
 .anvil-field-dollar .ant-form-item-control,
