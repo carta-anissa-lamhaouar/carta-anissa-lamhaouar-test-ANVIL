@@ -566,6 +566,17 @@ span strong {
   padding: 0;
 }
 
+.sc-ifjxht.fwmdsk {
+  position: relative;
+  padding-bottom: 2%;
+}
+
 .anvil-loading-spinner {
   visibility: hidden;
+}
+
+.anvil-button-bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
