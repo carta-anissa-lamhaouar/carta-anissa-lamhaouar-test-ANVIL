@@ -435,6 +435,10 @@ button-transition: The transition property of the button.
 /* .form-group-header > div:only-child:empty {
 
 } */
+.ant-form-item-control:not(:has(.ant-input.city)) {
+  padding: calc(16px);
+  padding-left: 0;
+}
 
 .ant-form-item-control:has(.anvil-field-input):not(:has(textarea)),
 .ant-form-item-control:not(:has(.ant-input.city)),
