@@ -454,7 +454,7 @@ button-transition: The transition property of the button.
 .anvil-field-dollar .ant-form-item-control,
 .anvil-field-email .ant-form-item-control,
 .anvil-field-phone .ant-form-item-control,
-.anvil-field-intladdress .ant-form-item-control,
+/* .anvil-field-intladdress .ant-form-item-control, */
 /* .anvil-field-usaddress .ant-form-item-control, */
 .anvil-field-compoundselect .ant-form-item-control {
   flex: 0 0 66%;
