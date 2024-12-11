@@ -449,6 +449,10 @@ button-transition: The transition property of the button.
   width: 100% !important;
 }
 
+.label-i-agree {
+  padding-left: 15px;
+}
+
 /* .ant-form-item-control:has(.anvil-field-input):not(:has(textarea)), */
 .anvil-field-shorttext .ant-form-item-control,
 .anvil-field-dollar .ant-form-item-control,
