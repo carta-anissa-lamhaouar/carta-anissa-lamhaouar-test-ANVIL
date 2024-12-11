@@ -584,7 +584,15 @@ span strong {
   right: 0;
   bottom: 0;
 }
+.ant-select-item-option-active.ant-select-item-option-active:not(
+    .ant-select-item-option-disabled
+  ) {
+  background-color: white;
+}
 
+.dropdown-placeholder-option.dropdown-placeholder-option.dropdown-placeholder-option {
+  background-color: white;
+}
 /* .ant-select-item-option-active.ant-select-item-option-active:not(
     .ant-select-item-option-disabled
   ) {
