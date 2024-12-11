@@ -253,6 +253,10 @@ button-transition: The transition property of the button.
 .ant-form-item-control-input {
   font-size: 14px;
 }
+.ant-checkbox-wrapper:has(#acceptedTerms) {
+  display: flex;
+}
+
 /* --checkbox-border-radius: 4px;
 --checkbox-size: 16px;
 --checkbox-check-hover-border: 1px solid;
