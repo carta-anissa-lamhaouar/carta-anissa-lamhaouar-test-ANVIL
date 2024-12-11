@@ -229,7 +229,7 @@ button-transition: The transition property of the button.
   --review-data-card-empty-value-required-border-bottom: 2px solid
     var(--root-error-color);
   --review-data-card-empty-value-font-style: italic;
-
+  --circle-icon-background: rgb(50, 176, 160);
   /* --review-data-card-value-empty-required-hover-color: <color-value>; */
   /* --review-data-card-value-label-color: <color-value>; */
   /* --review-data-card-value-label-hover-color: <color-value>; */
