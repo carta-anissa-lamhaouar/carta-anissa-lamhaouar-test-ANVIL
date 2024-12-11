@@ -435,11 +435,11 @@ button-transition: The transition property of the button.
 /* .form-group-header > div:only-child:empty {
 
 } */
-.ant-form-item-control:has(.ant-input.city),
+/* .ant-form-item-control:has(.ant-input.city),
 .ant-form-item-control:has(.ant-input.zip),
 .ant-form-item-control:has(.ant-select.state) {
   padding: 0;
-}
+} */
 
 .anvil-address-zip {
   width: 100%;
