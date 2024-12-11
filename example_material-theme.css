@@ -242,6 +242,11 @@ button-transition: The transition property of the button.
 .anvil-review-data-card.anvil-content-card {
   margin-bottom: 40px;
 }
+
+.anvil-button-bar:has(#finish-btn) {
+  right: 5%;
+  bottom: 9%;
+}
 .anvil-esign-page,
 .anvil-webform-finish-page,
 .anvil-webform-review-page {
