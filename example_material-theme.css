@@ -449,7 +449,7 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 .ant-form-item-control:has(.anvil-field-input):not(:has(textarea)),
-.ant-form-item-control:not(:has(.ant-input.city)),
+.ant-form-item-control:has(.anvil-field-input):not(:has(.ant-input.city)),
 .ant-form-item-control:has(.anvil-dropdown) {
   flex: 0 0 66%;
   max-width: 66%;
@@ -506,6 +506,8 @@ button-transition: The transition property of the button.
 
 .anvil-field-radiobuttons .anvil-button-bar {
   justify-content: flex-start;
+  position: relative;
+  padding-top: 10px;
 }
 
 .anvil-field-shorttext.ant-form-item {
