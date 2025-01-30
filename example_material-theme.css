@@ -642,11 +642,11 @@ span strong {
   visibility: hidden;
 }
 
-.anvil-button-bar {
+/* .anvil-button-bar {
   position: absolute;
   right: 0;
   bottom: 0;
-}
+} */
 .ant-select-item-option-active.ant-select-item-option-active:not(
     .ant-select-item-option-disabled
   ) {
