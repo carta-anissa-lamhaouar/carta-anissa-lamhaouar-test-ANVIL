@@ -194,7 +194,7 @@ button-transition: The transition property of the button.
   /* - `.anvil-dropzone-drop-disabled` */
 
   /******** loading spinner ********/
-  /* --loading-spinner-color: <color-value>; */
+  --loading-spinner-color: white;
   --loading-spinner-size: 24px;
   --loading-spinner-thickness: 2px;
 
@@ -332,11 +332,11 @@ button-transition: The transition property of the button.
 }
 
 .forge-page.anvil-webform-page > * {
-  padding: 32px;
+  /* padding: 32px; */
   border: 1px solid var(--root-grey-color);
   background-color: var(--root-white-color);
   border-radius: 4px;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .forge-submit .anvil-button {
