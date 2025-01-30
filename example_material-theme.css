@@ -332,7 +332,7 @@ button-transition: The transition property of the button.
 }
 
 .forge-page.anvil-webform-page > * {
-  /* padding: 32px; */
+  padding: 0px;
   border: 1px solid var(--root-grey-color);
   background-color: var(--root-white-color);
   border-radius: 4px;
