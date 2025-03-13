@@ -604,6 +604,16 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 
+.anvil-field .form-group-checkbox .form-group-no-label .ant-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hRNtDB > span:not(.ant-checkbox) {
+  max-width: 100%;
+  display: inline-flex;
+  padding-bottom: 3px;
+}
 .sc-ifjxht.fwmdsk {
   align-items: center;
   display: flex;
