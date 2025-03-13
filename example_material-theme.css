@@ -591,6 +591,11 @@ button-transition: The transition property of the button.
   align-self: flex-start;
 }
 
+.anvil-field-checkbox .form-group-no-label .ant-form-item-control {
+  padding-top: 14px;
+  max-width: 100%;
+}
+
 .anvil-field-checkbox .anvil-field-label {
   font-weight: 400;
 }
@@ -604,7 +609,7 @@ button-transition: The transition property of the button.
   width: 100%;
 }
 
-.anvil-field .form-group-checkbox .form-group-no-label .ant-checkbox-wrapper {
+.anvil-field.form-group-checkbox.form-group-no-label .ant-checkbox-wrapper {
   display: flex;
   align-items: center;
 }
