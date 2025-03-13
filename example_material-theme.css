@@ -395,6 +395,16 @@ button-transition: The transition property of the button.
   order: 2;
 }
 
+.button-bar:has(.forge-submit.anvil-button) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-bar:has(#finish-btn) {
+  display: flex;
+  justify-content: center;
+}
+
 .anvil-markdown ol {
   list-style-type: decimal;
 }
